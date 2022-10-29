@@ -1,0 +1,134 @@
+/* new */
+
+.header-nav{
+  /*background-image:  url('../imgs/bg_top5.jpg');*/
+  background-size: auto 100%;
+}
+
+.top-info a {
+  font-size: 11px;
+}
+
+
+.nav-link-block.active .nav-link {
+  background-color: rgba(255,41,67,0.8) !important;
+  color: #ffffff !important;
+}
+.nav-link-block .nav-link a{
+  text-decoration: none;
+  color: #666666;
+}
+.nav-link-block.active .nav-link a{
+  color: #ffffff !important;
+}
+
+.header-drop__menu .nav-link {
+  font-family: "Conv_AvertaDemoPE-Regular";
+}
+
+.header-link__item{
+  outline: 0px solid black;
+}
+.header-link__item div{
+  outline: 0px solid blue;
+}
+.header-link__item div button i{
+  font-size: 50px;
+}
+
+
+
+.form_input input{
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.autType{
+  margin-right: 5px;
+}
+.form-check-input:checked{
+  background-color: #FF3B3B;
+  border-color: #FF3B3B;
+}
+
+.form_box{
+  margin-top: 32px;
+}
+
+/*profile img*/
+.account__user-img img{
+  width: 150px;
+}
+
+.user-img-close{
+  border: none;
+}
+
+.swiper-slide img{
+  max-height: 100%;
+}
+
+.product-pages__title{
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* new old*/
+
+
+.file_upload { display:none; }
+
+.product__like {
+  font-size: 35px;
+}
+.like_red{
+  color: #FF3B3B;
+}
+.like_white{
+  color: #ffffff;
+}
+
+
+
+.like_img:hover {
+  cursor: pointer;
+  -webkit-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  -moz-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  -o-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+  0%, 50%, 100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+  }
+  10%, 30% {
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+  }
+  20%, 40% {
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+  }
+}
